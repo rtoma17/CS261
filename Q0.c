@@ -21,7 +21,7 @@ int main(){
     /*declare an integer x*/
     int x = 10;
     /*print the address of x*/
-    printf("%d\n", &x);
+    printf("\n%d\n", &x);
     /*Call fooA() with the address of x*/
     fooA(&x);
     /*print the value of x*/
